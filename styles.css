@@ -1,0 +1,74 @@
+selector{
+    property: value;
+}
+
+.section-wrapper{
+    height: 250px;
+
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Segoe";
+    background-color: white;
+    color: black;
+    margin: 0;
+
+}
+
+
+header{
+    background-color: #bf7631;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+}
+
+nav a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+main{
+    margin: 5rem auto;
+    width: 100%;
+}
+
+.image-pottery{
+    width: 125px;
+}
+
+.image-mundo{
+    width: 150px;
+}
+
+.image{
+    width: 50%;
+}
+
+main section{
+    margin-top: 2rem;
+    padding: 20rem;
+}
+
+
+
+footer{
+    text-align: center;
+}
