@@ -1,11 +1,3 @@
-selector{
-    property: value;
-}
-
-.section-wrapper{
-    height: 250px;
-
-}
 
 html{
     box-sizing: border-box;
@@ -22,7 +14,8 @@ body{
 
 header{
     background-color: #bf7631;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     padding: 1rem;
 }
@@ -50,25 +43,90 @@ main{
     width: 100%;
 }
 
-.image-pottery{
-    width: 125px;
+.home{
+    display: flex;
+    
 }
 
+.image-pottery{
+    height: 500px;
+    width: 100%;
+}
+
+.image-vase_one{
+    width: 50%;
+}
+
+
+
 .image-mundo{
-    width: 150px;
+    width: 50%;
 }
 
 .image{
-    width: 50%;
+    width: 25%;
 }
 
 main section{
     margin-top: 2rem;
-    padding: 20rem;
+    padding: 5rem;
+    
+    
+
+}
+
+.image-flowertwo{
+    width: 25%;
+    transform: rotateY(180deg);
+}
+
+.section-about{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.product-images{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
 }
 
 
 
+
 footer{
-    text-align: center;
+    background-color: #bf7631;
+    position:static;
+    height:min-content;
+    height: 50%;
+    width: 100%;
+    bottom: 2;
+    padding: 1rem;
+    display:flex;
+
+}
+
+.image-youtube{
+    width:25%
+}
+
+.image-FB{
+    width:25%
+}
+
+.image-twitter{
+    width:25%
+}
+
+.image-insta{
+    width:25%;
+    bottom: 0.7rem;
+    right: 1rem;
+
 }

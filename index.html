@@ -10,7 +10,9 @@
 <body>
     <header>
         <nav>
-            <a>CARA CARA</a>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container"></div>
+            <h1>CARA CARA</h1>
             <ul>
                 <li><a href="#HOME">HOME</a></li>
                 <li><a href="#ABOUT">ABOUT</a></li>
@@ -18,81 +20,176 @@
                 <li><a href="#CONTACT">CONTACT</a></li>
                 
             </ul>
+        </div>
         </nav> 
     </header>
     <main>
-        <section class =section-wrapper id ="HOME">
+        <section class ="home" id ="HOME">
+            <link rel="stylesheet" href="styles.css">
             <div class ="image-pottery">
-                <img class="image" src="images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg"
+                <img class="image-pottery" src="images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg"
                 alt= "Ceramic wheel being used by person"
                 />
             </div>
-            <h1>CERAMICS CRAFTED BY HAND...</h1>
-            <H2>...FROM THE GROUND</H2>
+            <p>CERAMICS CRAFTED BY HAND...</p>
+            
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                 deserunt mollit anim id est laborum."
             </p>
+            <p>...FROM THE GROUND</p>
         </section>
-        <section class=section-wrapper id="ABOUT">
-            <h3>ABOUT US</h3>
+        <section class="about" id="ABOUT">
+            <link rel="stylesheet" href="styles.css">
+            <h2>ABOUT US</h2>
             <p>This is text about the company.   
             </p>
-            <div class ="image-mundo">
+            <div class ="section-about">
                 <img class="image" src="images/Vase_Dame_2048x2048.jpg"
-                alt= "VAse with flowers in it turning towards right"/>
+                alt= "Vase with flowers in it turning towards right"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                     aliquip ex ea commodo consequat.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                     aliquip ex ea commodo consequat.</p>
-                <img class="image" src="images/Cylinder_unglazed3_2048x2048.jpg"
-                alt= "Mundo Bowl, two small bowls"/>
+                <img class="image-flowertwo" src="images/Cylinder_unglazed3_2048x2048.jpg"
+                alt= "Tall fluffy flowers in vase"/>
             </div>
         </section>
-        <section class=section-wrapper id= "PRODUCTS">
-            <h4>PRODUCTS</h4>
-            <div class ="image-mundo">
-                <img class="image" src="images/tom-crew-7HuTGlUfQSo-unsplash.jpg"
-                alt= "Mundo Bowl, two small bowls"/>
-                    <p>MUNDO BOWLS</p>
-                    <p>$48</p>
-                    <p>Words about Mundo Bowls.</p>
-                    <p>LEARN MORE</p>
-                    <p>ADD TO CART</p>
-                <img class="image" src="images/oriento-maVIpNNtmlQ-unsplash.jpg"
-                alt= "Red Natureza vase"/>
-                    <p>NATUREZA VASE</p>
-                    <p>$37</p>
-                    <p>Words about red vase</p>
-                    <p>LEARN MORE</p>
-                    <p>ADD TO CART</p>                
-                <img class="image" src="images/tom-crew-bgIO-u4GEfI-unsplash.jpg"
-                alt= "Feira Bowl"/>
-                    <p>FEIRA BOWL</p>
-                    <p>$29</p>
-                    <p>Words about Feira Bowl</p>
-                    <p>LEARN MORE</p>
-                    <p>ADD TO CART</p>
-                <img class="image" src="images/tom-crew-3uwu5K0RtaE-unsplash.jpg"
-                alt= "Natureza Pots"/>
-                    <p>NATUREZA POTS</p>
-                    <p>$29</p>
-                    <p>Words about Natureza Pots</p>
-                    <p>LEARN MORE</p>
-                    <p>ADD TO CART</p>
+        <section class= "products" id= "PRODUCTS" style="background-color: aqua;">
+            <link rel="stylesheet" href="styles.css">
+
+            <h3>PRODUCTS</h3>
+            <div class ="product-images">
+
+                <div>
+                    <img class="image-mundo" src="images/tom-crew-7HuTGlUfQSo-unsplash.jpg"
+                    alt= "Mundo Bowl, two small bowls"/>
+                        <p>MUNDO BOWLS</p>
+                        <p>$48</p>
+                        <p>Words about Mundo Bowls.</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>    
+                </div>
+                
+                <div>
+                    <img class="image" src="images/oriento-maVIpNNtmlQ-unsplash.jpg"
+                    alt= "Red Natureza vase"/>
+                        <p>NATUREZA VASE</p>
+                        <p>$37</p>
+                        <p>Words about red vase</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>  
+                </div>
+
+                <div>
+                    <img class="image" src="images/tom-crew-bgIO-u4GEfI-unsplash.jpg"
+                    alt= "Feira Bowl"/>
+                        <p>FEIRA BOWL</p>
+                        <p>$29</p>
+                        <p>Words about Feira Bowl</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>
+                </div>
+
+                <div>
+                    <img class="image" src="images/tom-crew-3uwu5K0RtaE-unsplash.jpg"
+                    alt= "Natureza Pots"/>
+                        <p>NATUREZA POTS</p>
+                        <p>$59</p>
+                        <p>Words about Natureza Pots</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>
+                </div>
+
+                <div>
+                    <img class="image" src="images/linh-le-a0rE64YJDA4-unsplash.jpg"
+                    alt= "Pedra Vase"/>
+                        <p>PEDRA VASE</p>
+                        <p>$31</p>
+                        <p>Words about Pedra vases</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>
+
+                </div>
+
+                <div>
+                    <img class="image" src="images/tom-crew-oiZAQvxTcYQ-unsplash.jpg"
+                    alt= "Viaja Pots"/>
+                        <p>VIAJA POTS</p>
+                        <p>$57</p>
+                        <p>Words about Viaja Pots</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>   
+                </div>
+
+                <div>
+                    <img class="image" src="images/tom-crew-YA2E3d7a9Wo-unsplash.jpg"
+                    alt= "Servico Plates"/>
+                        <p>SERVIÇO PLATES</p>
+                        <p>$35</p>
+                        <p>Words about Servico Plates</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>   
+                </div>
+
+                <div>
+                    <img class="image" src="images/oriento-l0ah3UBLppo-unsplash.jpg"
+                    alt= "campeo vase"/>
+                        <p>CAMPEÃO VASE</p>
+                        <p>$37</p>
+                        <p>Words about Campeão Vases</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>   
+                </div>
+
+                <div>
+                    <img class="image" src="images/tom-crew-SITGdvztUdg-unsplash.jpg"
+                    alt= "Troca Bowls"/>
+                        <p>TROCA BOWLS</p>
+                        <p>$25</p>
+                        <p>Words about Troca Bowls</p>
+                        <p>LEARN MORE</p>
+                        <p>ADD TO CART</p>   
+                </div>
+
+                    
+
         </div>
         </section>
 
         <section class=section-wrapper id= "CONTACT">
-            <h5>CONTACT US</h5>
+            <h4>CONTACT US</h4>
             <p>EMAIL</p>
             <p>MESSAGE</p>
         </section>
     </main>
-    <footer>eCommerce Site 2022</footer>
+    <footer>
+        <nav>
+        <section class= "navbar navbar-default navbar-static-bottom" id = footer>
+           <nav>
+             <img class="image-youtube" src="images/icons8-youtube-96.png"
+                alt= "youtube icon"/>
+                <img class="image-FB" src="images/icons8-facebook-96 (1).png"
+                alt= "facebook icon"/>
+                <p>CARA</p>
+                <img class="image-small-pot" src="images/icons8-pottery-96 (1).png"
+                alt= "Viaja Pots"/>
+                <p>CARA</p>
+                <img class="image-twitter" src="images/icons8-twitter-96.png"
+                alt= "twitter icon"/>
+                <img class="image-insta" src="images/icons8-instagram-96.png"
+                alt= "instagram icon"/>
+            
+        </nav>
+
+        </section>
+
+        
+    
+    </footer>
 </body>
 </html>
